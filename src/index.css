@@ -11,3 +11,53 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @apply font-serif;
 }
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; /* Offset for fixed navbar */
+}
+
+/* Hide scrollbar for chrome/safari/opera but keep functionality */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4a574;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c9a961;
+}
+/* Cinematic Gallery Grading */
+.gallery-item img {
+  filter: 
+    sepia(15%) 
+    contrast(1.1) 
+    brightness(0.95)
+    saturate(1.15);
+  transition: filter 0.5s ease;
+}
+
+.gallery-item:hover img {
+  filter: 
+    sepia(10%) 
+    contrast(1.15) 
+    brightness(1)
+    saturate(1.2);
+}
+
+/* Warm amber tone overlay for videos */
+video {
+  filter: 
+    contrast(1.1) 
+    brightness(0.9)
+    saturate(1.1);
+}
+
+/* Deep black preservation */
+img {
+  color-interpolation-filters: sRGB;
+}
