@@ -2,8 +2,9 @@ import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navigation from './components/Navigation';
 import Hero from './components/Hero';
-import Gallery from './components/Gallery';
 import Events from './components/Events';
+import Gallery from './components/Gallery';
+import Location from './components/Location';
 import './i18n';
 
 function App() {
@@ -22,12 +23,10 @@ function App() {
       <Hero />
       <Events />
       <Gallery />
-      {/* Placeholders for remaining sections */}
+      <Location />
+      {/* Placeholders */}
       <section id="menu" className="min-h-screen flex items-center justify-center">
         <p className="text-amber-warm">Menu Section Coming Soon</p>
-      </section>
-      <section id="location" className="min-h-screen flex items-center justify-center">
-        <p className="text-amber-warm">Location Section Coming Soon</p>
       </section>
       <section id="private" className="min-h-screen flex items-center justify-center">
         <p className="text-amber-warm">Private Events Section Coming Soon</p>
