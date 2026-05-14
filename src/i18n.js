@@ -21,7 +21,7 @@ const resources = {
         location: "Location",
         private: "Private Events",
       },
-       events: {
+      events: {
         title: "Weekly Schedule",
         subtitle: "Seven nights of curated sounds. From intimate blues to electric funk, there’s always a reason to visit.",
         note: "Lineups may vary. Follow us for weekly artist announcements and special guest sets.",
@@ -33,7 +33,7 @@ const resources = {
         friday: { day: "Friday", title: "Live Funk & Jazz Band", subtitle: "Full Ensemble", desc: "The weekend kicks off with our signature live band. Groovy basslines, brass sections, and classic funk.", vibe: "Electric" },
         saturday: { day: "Saturday", title: "Dual DJ Sets", subtitle: "Back-to-Back Vinyl & Digital", desc: "Two DJs, one turntable. Curated sets spanning jazz, soul, funk, and modern electronic crossovers.", vibe: "Dynamic" }
       },
-       location: {
+      location: {
         title: "Find Us",
         subtitle: "Explore Chongqing. End your evening at BB Funk.",
         address_label: "Address",
@@ -56,9 +56,52 @@ const resources = {
         hongya: { name: "Hongya Cave", desc: "Stilted architecture & night views" },
         yangtze: { name: "Yangtze River", desc: "River cruises & cableway views" },
         streets: { name: "Mountain City Streets", desc: "Hidden alleys & local culture" }
-  },
+      },
+    },
+      private: {
+        title: "Private Events",
+        subtitle: "Intimate gatherings, milestone celebrations, and unforgettable nights. Let us host your moment.",
+        gallery_title: "Moments We've Hosted",
+        form: {
+          title: "Book Your Event",
+          subtitle: "Tell us about your celebration. We'll get back to you within 24 hours.",
+          name: "Your Name",
+          email: "Email Address",
+          phone: "Phone / WeChat",
+          date: "Preferred Date",
+          type: "Event Type",
+          message: "Details / Requests",
+          message_placeholder: "Tell us about your group size, preferred drinks, or any special requests...",
+          submit: "Send Inquiry",
+          options: {
+            birthday: "Birthday Party",
+            wedding: "Wedding / Proposal",
+            corporate: "Corporate Event",
+            other: "Other"
+          }
+        },
+        note: "Reservations for private events are handled by our event coordinator. We look forward to hearing from you."
 },
-
+      packages: {
+        intimate: {
+          title: "Intimate Gatherings",
+          subtitle: "Birthdays, Anniversaries & Small Parties",
+          capacity: "10–60 Guests",
+          desc: "Perfect for milestone celebrations. Reserve a corner table or a small section for a cozy, personalized experience."
+        },
+        corporate: {
+          title: "Corporate & Social",
+          subtitle: "Team Drinks, Networking & After-Parties",
+          capacity: "30–80 Guests",
+          desc: "Elevate your team culture. Enjoy dedicated service, custom drink packages, and a sophisticated atmosphere for unwinding."
+        },
+        venue: {
+          title: "Full Venue Buyout",
+          subtitle: "Weddings, Galas & Exclusive Parties",
+          capacity: "80+ Guests",
+          desc: "Make BB Funk yours. Transform the space with custom lighting, private bar service, and live entertainment tailored to your vision."
+        }
+      }
     },
   },
   zh: {
@@ -90,7 +133,6 @@ const resources = {
         friday: { day: "周五", title: "现场放克与爵士乐队", subtitle: "完整编制", desc: "周末以我们的招牌现场乐队开场。律动贝斯、铜管乐与经典放克。", vibe: "电光火石" },
         saturday: { day: "周六", title: "双DJ联演", subtitle: "黑胶与数字背靠背", desc: "两位DJ，一台转盘。精选爵士、灵魂、放克与现代电子跨界曲目。", vibe: "动感" }
       },
-    },
       location: {
         title: "找到我们",
         subtitle: "探索重庆，夜晚归于BB Funk。",
@@ -114,9 +156,54 @@ const resources = {
         hongya: { name: "洪崖洞", desc: "吊脚楼建筑与夜景" },
         yangtze: { name: "长江", desc: "江游船与索道观景" },
         streets: { name: "山城街巷", desc: "隐秘小巷与本土文化" }
-        }
+        },
 },
-  // Add FR, ES, KO, RU, DE similarly
+      private: {
+        title: "私人活动",
+        subtitle: "亲密聚会、里程碑庆典和难忘的夜晚。让我们为您主办。",
+        gallery_title: "过往活动瞬间",
+        form: {
+          title: "预订活动",
+          subtitle: "告诉我们您的庆祝计划。我们将在 24 小时内回复您。",
+          name: "您的姓名",
+          email: "电子邮件",
+          phone: "电话 / 微信",
+          date: "首选日期",
+          type: "活动类型",
+          message: "详情 / 要求",
+          message_placeholder: "告诉我们人数、首选饮品或任何特殊要求...",
+          submit: "发送咨询",
+          options: {
+            birthday: "生日派对",
+            wedding: "婚礼 / 求婚",
+            corporate: "企业活动",
+            other: "其他"
+          }
+        },
+        note: "私人活动预订由我们的活动协调员处理。期待您的来信。"
+      },
+      packages: {
+        intimate: {
+          title: "亲密聚会",
+          subtitle: "生日、纪念日及小型派对",
+          capacity: "10–60 人",
+          desc: "庆祝里程碑的完美选择。预订角落卡座或小区域，享受私密个性化的体验。"
+        },
+        corporate: {
+          title: "企业与社交",
+          subtitle: "团队聚会、社交与派对",
+          capacity: "30–80 人",
+          desc: "提升团队文化。享受专属服务、定制饮品套餐，在优雅氛围中放松身心。"
+        },
+        venue: {
+          title: "包场预订",
+          subtitle: "婚礼、宴会及专属派对",
+          capacity: "80+ 人",
+          desc: "让 BB Funk 成为您的专属空间。定制灯光、私人吧台服务及现场娱乐表演。"
+        }
+      }
+      },   
+    // Add FR, ES, KO, RU, DE similarly
 };
 
 i18n
