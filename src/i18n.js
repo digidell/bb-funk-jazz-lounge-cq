@@ -33,6 +33,32 @@ const resources = {
         friday: { day: "Friday", title: "Live Funk & Jazz Band", subtitle: "Full Ensemble", desc: "The weekend kicks off with our signature live band. Groovy basslines, brass sections, and classic funk.", vibe: "Electric" },
         saturday: { day: "Saturday", title: "Dual DJ Sets", subtitle: "Back-to-Back Vinyl & Digital", desc: "Two DJs, one turntable. Curated sets spanning jazz, soul, funk, and modern electronic crossovers.", vibe: "Dynamic" }
       },
+       location: {
+        title: "Find Us",
+        subtitle: "Explore Chongqing. End your evening at BB Funk.",
+        address_label: "Address",
+        address: "32 Ziwei Road, Liangjiang New District",
+        address_cn: "重庆市两江新区紫薇路32号",
+        address_short: "32 Ziwei Road, Chongqing",
+        metro_label: "Metro",
+        metro: "Huangnibang Station (黄泥磅地铁站)",
+        metro_note: "Line 6 • 4 min walk • Exit 2B",
+        hours_label: "Hours",
+        hours: "Mon–Thu: 19:00 – 02:00",
+        hours_weekend: "Fri–Sun: 19:00 – 03:00",
+        cocktail_title: "Diamond in the Rough",
+        cocktail_desc: "Our signature cocktail. A hidden gem in the middle of the city.",
+        cocktail_cta: "View Drink Menu",
+        map_fallback: "Open in AMap",
+        attractions_title: "Explore the heart ofChongqing",
+        note: "Map coordinates approximate. Verify with local navigation apps in China.",
+        attractions: {
+        hongya: { name: "Hongya Cave", desc: "Stilted architecture & night views" },
+        yangtze: { name: "Yangtze River", desc: "River cruises & cableway views" },
+        streets: { name: "Mountain City Streets", desc: "Hidden alleys & local culture" }
+  },
+},
+
     },
   },
   zh: {
@@ -65,7 +91,31 @@ const resources = {
         saturday: { day: "周六", title: "双DJ联演", subtitle: "黑胶与数字背靠背", desc: "两位DJ，一台转盘。精选爵士、灵魂、放克与现代电子跨界曲目。", vibe: "动感" }
       },
     },
-  },
+      location: {
+        title: "找到我们",
+        subtitle: "探索重庆，夜晚归于BB Funk。",
+        address_label: "地址",
+        address: "两江新区紫薇路32号",
+        address_cn: "重庆市两江新区紫薇路32号",
+        address_short: "重庆市紫薇路32号",
+        metro_label: "地铁",
+        metro: "黄泥磅地铁站",
+        metro_note: "6号线 • 步行4分钟 • 2B号出口",
+        hours_label: "营业时间",
+        hours: "周一至周四：19:00 – 02:00",
+        hours_weekend: "周五至周日：19:00 – 03:00",
+        cocktail_title: "午夜重庆",
+        cocktail_desc: "我们的招牌鸡尾酒。规划行程时，不妨小酌一杯。",
+        cocktail_cta: "查看酒单",
+        map_fallback: "打开高德地图",
+        attractions_title: "探索重庆",
+        note: "地图坐标为近似值。在中国请使用本地导航应用核实。",
+        attractions: {
+        hongya: { name: "洪崖洞", desc: "吊脚楼建筑与夜景" },
+        yangtze: { name: "长江", desc: "江游船与索道观景" },
+        streets: { name: "山城街巷", desc: "隐秘小巷与本土文化" }
+        }
+},
   // Add FR, ES, KO, RU, DE similarly
 };
 
