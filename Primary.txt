@@ -1,0 +1,11 @@
+Primary:
+- Deep Charcoal: #1a1a1a
+- Warm Amber: #d4a574
+- Cognac Brown: #8b6f47
+- Smoky Black: #0d0d0d
+
+Accents:
+- Brass Gold: #c9a961
+- Deep Burgundy: #722f37
+- Midnight Blue: #191970
+- Cream: #f5f0e8
