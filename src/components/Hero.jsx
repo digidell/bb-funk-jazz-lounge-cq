@@ -5,15 +5,13 @@ export default function Hero() {
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       
       {/* Video Background */}
+      // Hero.jsx (Snippet Fix)
       <video 
-        autoPlay 
-        muted 
-        loop 
-        playsInline
+        autoPlay muted loop playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-60"
-        poster="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=1920&q=80"
+        poster="/images/hero-poster.jpg" // Local fallback
       >
-        <source src="https://videos.pexels.com/video-files/857251/857251-hd_1920_1080_25fps.mp4" type="video/mp4" />
+        <source src="/videos/hero.mp4" type="video/mp4" /> 
       </video>
 
       {/* Cinematic Overlay */}

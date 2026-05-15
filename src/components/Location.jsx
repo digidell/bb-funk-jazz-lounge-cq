@@ -21,9 +21,11 @@ export default function Location() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Map */}
           <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative rounded-xl overflow-hidden border border-white/10 aspect-[4/3] bg-charcoal/50">
+            // Location.jsx (Snippet Fix)
             <iframe
-              src="https://uri.amap.com/marker?position=106.5450,29.6150&name=BB%20Funk%20Jazz%20Lounge&src=mypage"
-              className="w-full h-full border-0"
+              // Updated with approximate Ziwei Road coordinates
+              src="https://uri.amap.com/marker?position=106.5458,29.6133&name=BB%20Funk%20Jazz%20Lounge&src=mypage"
+              className="w-full h-full border-0 grayscale invert contrast-125" 
               title="BB Funk Location"
             />
             <div className="absolute bottom-4 left-4 bg-charcoal/90 backdrop-blur-md px-4 py-2 rounded-lg border border-amber-warm/20">
