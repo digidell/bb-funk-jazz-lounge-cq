@@ -54,7 +54,6 @@ export default function Events() {
     }
   ];
 
-  // Framer Motion variants
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {

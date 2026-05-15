@@ -5,13 +5,6 @@ export default function Hero() {
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       
       {/* Video Background */}
-      {/* 
-         Note: This is a stock video link for immediate viewing.
-         To use your own video:
-         1. Create a folder: public/videos
-         2. Add your file: hero.mp4
-         3. Change src to: "/videos/hero.mp4"
-      */}
       <video 
         autoPlay 
         muted 
@@ -24,14 +17,12 @@ export default function Hero() {
       </video>
 
       {/* Cinematic Overlay */}
-      {/* This creates the "dark jazz club" feel and ensures text is readable */}
       <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/60 to-charcoal" />
       <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-transparent to-charcoal/80" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         
-        {/* Animated Entrance */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

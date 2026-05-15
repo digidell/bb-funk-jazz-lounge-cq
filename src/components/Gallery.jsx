@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const galleryImages = [
+const galleryImages =[
   { src: 'https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80', alt: 'Live jazz performance', span: 'md:col-span-2' },
   { src: 'https://images.unsplash.com/photo-1575444758702-4a6b9222336e?auto=format&fit=crop&w=800&q=80', alt: 'Craft cocktails at the bar' },
   { src: 'https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&w=800&q=80', alt: 'Intimate crowd atmosphere' },

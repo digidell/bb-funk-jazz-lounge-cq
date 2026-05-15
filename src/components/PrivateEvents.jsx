@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function PrivateEvents() {
   const [submitted, setSubmitted] = useState(false);
 
-  const packages = [
+  const packages =[
     { icon: <Users className="w-6 h-6" />, title: 'Intimate Gatherings', sub: 'Birthdays & Anniversaries', cap: '10–30 Guests', desc: 'Reserve a corner table or small section for a cozy, personalized experience.' },
     { icon: <Champagne className="w-6 h-6" />, title: 'Corporate & Social', sub: 'Team Drinks & Networking', cap: '30–80 Guests', desc: 'Elevate your team culture with dedicated service and custom drink packages.' },
     { icon: <Star className="w-6 h-6" />, title: 'Full Venue Buyout', sub: 'Weddings & Galas', cap: '80+ Guests', desc: 'Transform the space with custom lighting, private bar, and live entertainment.' }
