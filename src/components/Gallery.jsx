@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 
-// Replace these URLs with your actual uploaded assets from /public/images/
 const galleryImages = [
   { src: 'https://images.unsplash.com/photo-1514525253440-b393452e8d26?auto=format&fit=crop&w=800&q=80', alt: 'Live jazz performance', span: 'md:col-span-2' },
   { src: 'https://images.unsplash.com/photo-1575444758702-4a6b9222336e?auto=format&fit=crop&w=800&q=80', alt: 'Craft cocktails at the bar' },
@@ -14,12 +13,7 @@ export default function Gallery() {
   return (
     <section id="gallery" className="py-24 px-6 md:px-12 bg-charcoal">
       <div className="max-w-6xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
+        <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-cream mb-4">The Gallery</h2>
           <p className="text-cream/60 max-w-xl mx-auto">Curated moments from the lounge. Warm amber, deep blacks, authentic nights.</p>
         </motion.div>
