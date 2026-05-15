@@ -5,19 +5,26 @@ export default function Hero() {
     <section className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       
       {/* Video Background */}
-      {/* Replace src with your local file: src="/videos/bartender.mp4" */}
+      {/* 
+         Note: This is a stock video link for immediate viewing.
+         To use your own video:
+         1. Create a folder: public/videos
+         2. Add your file: hero.mp4
+         3. Change src to: "/videos/hero.mp4"
+      */}
       <video 
         autoPlay 
         muted 
         loop 
         playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-60"
+        poster="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?auto=format&fit=crop&w=1920&q=80"
       >
-        <source src="https://cdn.pixabay.com/video/2021/08/10/82828-594379864_large.mp4" type="video/mp4" />
+        <source src="https://videos.pexels.com/video-files/857251/857251-hd_1920_1080_25fps.mp4" type="video/mp4" />
       </video>
 
       {/* Cinematic Overlay */}
-      {/* This creates the "dark jazz club" feel */}
+      {/* This creates the "dark jazz club" feel and ensures text is readable */}
       <div className="absolute inset-0 bg-gradient-to-b from-charcoal/40 via-charcoal/60 to-charcoal" />
       <div className="absolute inset-0 bg-gradient-to-r from-charcoal/80 via-transparent to-charcoal/80" />
 
