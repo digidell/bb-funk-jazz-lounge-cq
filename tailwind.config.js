@@ -7,31 +7,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        'charcoal': '#1a1a1a',
-        'amber-warm': '#d4a574',
-        'cognac': '#8b6f47',
-        'brass': '#c9a961',
-        'burgundy': '#722f37',
-        'cream': '#f5f0e8',
-        'smoke': 'rgba(13,13,13,0.85)',
+        'charcoal': '#0a0a0a',       // Deep black/charcoal
+        'amber-warm': '#c9a26c',     // Gold/Amber highlight
+        'cognac': '#8b5a2b',         // Deep leather tone
+        'burgundy': '#5c1a1a',       // Deep red accent
+        'cream': '#e8e0d5',          // Soft text color
       },
       fontFamily: {
-        serif: ['Playfair Display', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-      },
-      backgroundImage: {
-        'vinyl-gradient': 'radial-gradient(circle at 30% 30%, rgba(212,165,116,0.15) 0%, transparent 60%)',
-        'harlem-overlay': 'linear-gradient(180deg, rgba(26,26,26,0.3) 0%, rgba(13,13,13,0.95) 100%)',
-      },
-      animation: {
-        'slow-fade': 'fadeIn 2s ease-in-out',
-        'vinyl-spin': 'spin 20s linear infinite',
-      },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0', transform: 'translateY(10px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
-        },
+        'serif': ['"Playfair Display"', 'Georgia', 'serif'],
+        'sans': ['"Inter"', 'sans-serif'],
       },
     },
   },
